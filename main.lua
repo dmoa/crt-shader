@@ -30,10 +30,10 @@ crtShader = love.graphics.newShader([[
         - sin(tcg.x * 128. * 3.142 * 2) * .03;
         return res * Texel(tex, tcg).a;
     }
-    ]])
+]])
     
-    function love.keypressed(key)
-        if key == "escape" then love.event.quit() end
-    end
-    
-    love.graphics.setShader(crtShader)
+function love.keypressed(key)
+    if key == "escape" then love.event.quit() end
+end
+
+love.graphics.setShader(crtShader)
