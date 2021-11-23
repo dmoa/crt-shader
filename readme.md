@@ -5,4 +5,4 @@ These shaders attempt to reproduce aspects and characteristics of cathode ray tu
 
 <br>
 
-![Alt Text](showcase.gif)
+<img src="showcase.gif" alt="showcase" width=100%>
